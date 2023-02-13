@@ -29,7 +29,7 @@ export default function Home() {
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
                 />
             </Head>
-            <div className="max-w-[1152px] m-auto">
+            <div className="max-w-[1400px] m-auto">
                 <Banner/>
                 <Featured />
                 <Trending />
