@@ -222,7 +222,7 @@ const Header = () => {
                                             </a>
                                         </li>
                                         <li><a>Settings</a></li>
-                                        <li><a>Signout</a></li>
+                                        <li><a>Logout</a></li>
                                     </ul>
                                 </div>
                             </div>
