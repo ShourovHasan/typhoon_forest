@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Header></Header>
-        <Component {...pageProps} />
+        <Component  {...pageProps} />
       <Footer></Footer>
     </>
   )
