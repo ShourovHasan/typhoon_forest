@@ -6,6 +6,7 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
 
         // Or if using `src` directory:
+        'node_modules/preline/dist/*.js',
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
@@ -14,5 +15,8 @@ module.exports = {
     daisyui: {
         themes: ["light"],
     },
-    plugins: [require("daisyui")],
+    plugins: [
+        require("daisyui"),
+        require('preline/plugin'),
+    ],
 };
