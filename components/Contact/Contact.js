@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto my-12">
+    <section className=" my-12">
       <div className="grid lg:grid-cols-2 ">
         <div className="lg:ml-10  bg-red-400 h-full rounded-lg overflow-hidden">
           <img

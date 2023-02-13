@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className=" py-2 px-4 grid md:grid-cols-2 gap-4">
+    <section className=" py-2 px-4 grid md:grid-cols-2 gap-4 mt-6">
       <div className=" flex flex-col justify-center text-center lg:text-start mb-6 lg:mb-0">
         <h6>Best place to buy and sell digital products.</h6>
         <h1 className="text-4xl font-bold mb-3">

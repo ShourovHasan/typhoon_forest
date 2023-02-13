@@ -20,8 +20,8 @@ const BrandCompany = () => {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto my-24">
-      <div className="ml-4 md:ml-0">
+    <section className=" my-24">
+      <div className="ml-4 md:ml-0 ">
         <h1 className="text-3xl font-bold">Our Brand Company</h1>
         <p>Visit our valuable company</p>
       </div>
@@ -44,7 +44,7 @@ const BrandCompany = () => {
         </div>
       </Marquee>
       <Marquee
-        className="flex max-w-6xl select-none mx-auto"
+        className="flex w-full select-none mx-auto"
         speed={80}
         direction="right"
       >
