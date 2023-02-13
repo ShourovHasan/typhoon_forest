@@ -27,14 +27,14 @@ const Header = () => {
 
                         <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
                             <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full  hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 text-gray-600 px-2 py-1 rounded-md">
-                                
+
                                 <FaWindows className="mr-1"></FaWindows>
                                 All Products
                                 <IoMdArrowDropdown className="ml-1"></IoMdArrowDropdown>
                             </button>
 
                             <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  sm:dark:border before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-                                
+
                                 <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
                                     <button type="button" class="flex justify-between w-full items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
                                         Website Templates
@@ -55,9 +55,9 @@ const Header = () => {
                                             CMS TEMPLATES
                                         </a>
                                         <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                                            
+
                                             WEBSITE BUILDERS
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ const Header = () => {
                                         </a>
                                         <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
                                             POPULAR CATEGORIES
-                                        </a>                                 
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -98,7 +98,7 @@ const Header = () => {
                                         <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
                                             More
                                         </a>
-                                                                              
+
                                     </div>
                                 </div>
                                 <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
@@ -138,7 +138,7 @@ const Header = () => {
                                         </a>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
 
@@ -212,6 +212,7 @@ const Header = () => {
                                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                         <div className="w-10 rounded-full">
                                             <img className="w-10" src="https://i.ibb.co/4TxsDNH/1665815821738.jpg" alt="" />
+
                                         </div>
                                     </label>
                                     <ul tabIndex={0} className="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
@@ -229,9 +230,9 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </nav>
-            
+
         </header>
     )
 }
