@@ -1,5 +1,8 @@
 import Banner from "@/components/Banner/Banner";
+import BrandCompany from "@/components/BrandingCompany/BrandingCompany";
+import Contact from "@/components/Contact/Contact";
 import Featured from "@/components/Featured/Featured";
+import Footer from "@/components/Footer/Footer";
 import Trending from "@/components/Trending/Trending";
 import Head from "next/head";
 
@@ -33,6 +36,9 @@ export default function Home() {
                 <Banner/>
                 <Featured />
                 <Trending />
+                <Contact/>
+                <BrandCompany/>
+                <Footer/>
             </div>
         </>
     );
