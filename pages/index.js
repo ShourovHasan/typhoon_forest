@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner/Banner";
 import Featured from "@/components/Featured/Featured";
 import Trending from "@/components/Trending/Trending";
 import Head from "next/head";
@@ -28,7 +29,8 @@ export default function Home() {
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
                 />
             </Head>
-            <div className="max-w-[1280px] m-auto">
+            <div className="max-w-[1152px] m-auto">
+                <Banner/>
                 <Featured />
                 <Trending />
             </div>
