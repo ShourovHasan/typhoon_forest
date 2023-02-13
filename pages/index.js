@@ -38,7 +38,6 @@ export default function Home() {
                 <Trending />
                 <Contact/>
                 <BrandCompany/>
-                <Footer/>
             </div>
         </>
     );
