@@ -30,7 +30,9 @@ const Review = () => {
                     <Slider {...settings}>
                         <div className="relative p-4 mb-3 bg-white rounded shadow xl:p-8">
 
-                            <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            <picture>
+                                <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            </picture>
                             <div className="flex items-start justify-between pt-4 pl-4">
                                 <div className="mr-6">
                                     <p className="text-gray-600 xl:text-xl xl:leading-loose">This website has a bunch of amazing components which improves my design</p>
@@ -39,7 +41,9 @@ const Review = () => {
                                         <p className="mt-4 text-base font-semibold leading-none text-gray-800">Date : 12-02-2023</p>
                                     </div>
                                 </div>
-                                <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png" alt="Display Avatar of Anna Smith" role="img" />
+                                <picture>
+                                    <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png" alt="Display Avatar of Anna Smith" role="img" />
+                                </picture>
                             </div>
                             <svg className="absolute z-10  bottom-[-10px] " width={16} height={10} viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 10L0 0L16 1.41326e-06L8 10Z" fill="white" />
@@ -47,7 +51,9 @@ const Review = () => {
                         </div>
                         <div className="relative p-4 mb-3 bg-white rounded shadow xl:p-8">
 
-                            <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            <picture>
+                                <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            </picture>
                             <div className="flex items-start justify-between pt-4 pl-4">
                                 <div className="mr-6">
                                     <p className="text-gray-600 xl:text-xl xl:leading-loose">This website has a bunch of amazing components which improves my design</p>
@@ -56,7 +62,9 @@ const Review = () => {
                                         <p className="mt-4 text-base font-semibold leading-none text-gray-800">Date : 12-02-2023</p>
                                     </div>
                                 </div>
-                                <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png" alt="Display Avatar of Anna Smith" role="img" />
+                                <picture>
+                                    <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png" alt="Display Avatar of Anna Smith" role="img" />
+                                </picture>
                             </div>
                             <svg className="absolute z-10  bottom-[-10px] " width={16} height={10} viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 10L0 0L16 1.41326e-06L8 10Z" fill="white" />
@@ -64,7 +72,9 @@ const Review = () => {
                         </div>
                         <div className="relative p-4 mb-3 bg-white rounded shadow xl:p-8">
 
-                            <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            <picture>
+                                <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            </picture>
                             <div className="flex items-start justify-between pt-4 pl-4">
                                 <div className="mr-6">
                                     <p className="text-gray-600 xl:text-xl xl:leading-loose">This website has a bunch of amazing components which improves my design</p>
@@ -73,7 +83,9 @@ const Review = () => {
                                         <p className="mt-4 text-base font-semibold leading-none text-gray-800">Date : 12-02-2023</p>
                                     </div>
                                 </div>
-                                <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-2.png" alt="Display avatar of Dany John" role="img" />
+                                <picture>
+                                    <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-2.png" alt="Display avatar of Dany John" role="img" />
+                                </picture>
                             </div>
                             <svg className="absolute z-10  bottom-[-10px] " width={16} height={10} viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 10L0 0L16 1.41326e-06L8 10Z" fill="white" />
@@ -81,7 +93,9 @@ const Review = () => {
                         </div>
                         <div className="relative p-4 mb-3 bg-white rounded shadow xl:p-8">
 
-                            <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            <picture>
+                                <img src="https://cdn.tuk.dev/assets/components/26May-update/quote.png" aria-hidden="true" alt="s" />
+                            </picture>
                             <div className="flex items-start justify-between pt-4 pl-4">
                                 <div className="mr-6">
                                     <p className="text-gray-600 xl:text-xl xl:leading-loose">This website has a bunch of amazing components which improves my design</p>
@@ -90,7 +104,9 @@ const Review = () => {
                                         <p className="mt-4 text-base font-semibold leading-none text-gray-800">Date : 12-02-2023</p>
                                     </div>
                                 </div>
-                                <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-3.png" alt="Display Avatar of Mike Blake" role="img" />
+                                <picture>                                    
+                                    <img src="https://cdn.tuk.dev/assets/components/26May-update/avatar-3.png" alt="Display Avatar of Mike Blake" role="img" />
+                                </picture>
                             </div>
                             <svg className="absolute z-10  bottom-[-10px] " width={16} height={10} viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 10L0 0L16 1.41326e-06L8 10Z" fill="white" />

@@ -1,7 +1,7 @@
-import BestSeller from '@/Components/BestSellers/BestSellers';
-import RecentlyAdded from '@/Components/RecentlyAdded/RecentlyAdded';
-import Review from '@/Components/Review/Review';
-import Trending from '@/Components/Trending/Trending';
+import BestSeller from '@/components/BestSellers/BestSellers';
+import RecentlyAdded from '@/components/RecentlyAdded/RecentlyAdded';
+import Review from '@/components/Review/Review';
+import Trending from '@/components/Trending/Trending';
 import React from 'react';
 
 const index = () => {

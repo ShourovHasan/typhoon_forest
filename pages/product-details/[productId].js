@@ -26,7 +26,9 @@ const ProductDetails = ({ product }) => {
             </div>
             <div className="grid grid-cols-3 gap-6">
                 <div className="col-span-2">
-                    <img src={image} alt="s" className="w-full rounded-lg" />
+                    <picture>
+                        <img src={image} alt="s" className="w-full rounded-lg" />
+                    </picture>
                     <div className="font-medium text-[#696969] pt-5">
                         <p className="mb-2">
                             <span className="text-xl font-bold">Groovy</span> is

@@ -34,11 +34,13 @@ const BrandCompany = () => {
               key={i}
               className="grid w-32 px-4 py-6 md:w-52 place-items-center"
             >
-              <img
-                className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
-                src={logo}
-                alt="s"
-              />
+              <picture>
+                <img
+                  className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
+                  src={logo}
+                  alt="s"
+                />
+              </picture>
             </div>
           ))}
         </div>
@@ -56,11 +58,13 @@ const BrandCompany = () => {
               key={i}
               className="grid w-32 px-4 py-6 md:w-52 place-items-center"
             >
-              <img
-                className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
-                src={logo}
-                alt="s"
-              />
+              <picture>
+                <img
+                  className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
+                  src={logo}
+                  alt="s"
+                />
+              </picture>
             </div>
           ))}
         </div>

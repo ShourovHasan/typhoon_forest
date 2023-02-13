@@ -15,25 +15,25 @@ const Footer = () => {
   const socialMedia = (
     <div className="flex gap-1">
       <div
-        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
+        className="p-2 duration-700 rounded-full cursor-pointer hover:bg-black hover:text-white"
         title="Facebook"
       >
         <FaFacebook className="text-3xl " />
       </div>
       <div
-        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
+        className="p-2 duration-700 rounded-full cursor-pointer hover:bg-black hover:text-white"
         title="Facebook"
       >
         <FaInstagram className="text-3xl" />
       </div>
       <div
-        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
+        className="p-2 duration-700 rounded-full cursor-pointer hover:bg-black hover:text-white"
         title="LinkedIn"
       >
         <FaLinkedin className="text-3xl" />
       </div>
       <div
-        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
+        className="p-2 duration-700 rounded-full cursor-pointer hover:bg-black hover:text-white"
         title="Dribbble"
       >
         <FaDribbble className="text-3xl" />
@@ -64,74 +64,78 @@ const Footer = () => {
               <p>DHAKA 1212 BANGLADESH.</p>
             </div>
           </div>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <AiFillPhone className="mr-2" />
             +8801111122200
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <GrMail className="mr-2" />
             typhoon@gamil.com
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <AiOutlineGlobal className="mr-2" />
             typhoon.com.bd
           </p>
         </div>
         <div>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Contact Us
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Designers
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Terms & Conditions
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Returns & Exchanges
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             FAQs
           </p>
         </div>
         <div>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Forum Support
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             My Account
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Orders Tracking
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Size Guides
           </p>
-          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             ShortCode
           </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-2 mt-4 lg:mt-0 md:items-start lg:items-end">
-          <img
-            className="w-40"
-            src="https://i.ibb.co/VV2zy6v/5a902db97f96951c82922874.png"
-            alt=""
-          />
-          <img
-            className="w-40"
-            src="https://i.ibb.co/7WKT5bS/67015-play-google-app-store-android-free-transparent-image-hd.jpg"
-            alt="s"
-          />
+          <picture>
+            <img
+              className="w-40"
+              src="https://i.ibb.co/VV2zy6v/5a902db97f96951c82922874.png"
+              alt=""
+            />
+          </picture>
+          <picture>
+            <img
+              className="w-40"
+              src="https://i.ibb.co/7WKT5bS/67015-play-google-app-store-android-free-transparent-image-hd.jpg"
+              alt="s"
+            />
+          </picture>
         </div>
         <div className="mx-auto md:hidden ">{socialMedia}</div>
       </div>
