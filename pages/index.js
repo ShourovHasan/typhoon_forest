@@ -36,7 +36,7 @@ export default function Home() {
                 <Banner/>
                 <Featured />
                 <BestSeller></BestSeller>
-                <Trending />
+                <Trending/>
                 <RecentlyAdded></RecentlyAdded>
                 <Review></Review>
             </div>
