@@ -10,6 +10,7 @@ const index = () => {
                     className="w-full"
                 />
             </div>
+
             <div className="gap-y-6 grid font-medium pt-8">
                 <p>
                     <span className="text-4xl">IN </span>Today is digital world,
