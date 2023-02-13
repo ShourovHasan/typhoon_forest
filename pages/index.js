@@ -1,5 +1,8 @@
 import Banner from "@/components/Banner/Banner";
+import BestSeller from "@/components/BestSellers/BestSellers";
 import Featured from "@/components/Featured/Featured";
+import RecentlyAdded from "@/components/RecentlyAdded/RecentlyAdded";
+import Review from "@/components/Review/Review";
 import Trending from "@/components/Trending/Trending";
 import Head from "next/head";
 
@@ -32,7 +35,10 @@ export default function Home() {
             <div className="max-w-[1400px] mx-auto">
                 <Banner/>
                 <Featured />
+                <BestSeller></BestSeller>
                 <Trending />
+                <RecentlyAdded></RecentlyAdded>
+                <Review></Review>
             </div>
         </>
     );
