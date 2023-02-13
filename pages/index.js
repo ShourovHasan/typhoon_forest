@@ -1,10 +1,10 @@
 import Banner from "@/Componets/Banner";
 
-
 export default function Home() {
-  return (
-    <>
-      <Banner/>
-    </>
-  )
+    return (
+        <>
+            <Banner />
+            <h1>a</h1>
+        </>
+    );
 }
