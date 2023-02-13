@@ -20,31 +20,31 @@ const BrandCompany = () => {
   ];
 
   return (
-    <section className=" my-24">
+    <section className="my-24 ">
       <div className="ml-4 md:ml-0 ">
         <h1 className="text-3xl font-bold">Our Brand Company</h1>
         <p>Visit our valuable company</p>
       </div>
-      <Marquee className="flex  select-none " speed={120}>
+      <Marquee className="flex select-none " speed={120}>
         <div
           className={`shrink-0 flex items-center justify-around whitespace-nowrap w-full`}
         >
           {row1.map((logo, i) => (
             <div
               key={i}
-              className="w-32 md:w-52 grid place-items-center py-6 px-4"
+              className="grid w-32 px-4 py-6 md:w-52 place-items-center"
             >
               <img
-                className="object-contain  w-full h-full rounded-lg aspect-video px-4  shadow-lg"
+                className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
                 src={logo}
-                alt=""
+                alt="s"
               />
             </div>
           ))}
         </div>
       </Marquee>
       <Marquee
-        className="flex w-full select-none mx-auto"
+        className="flex w-full mx-auto select-none"
         speed={80}
         direction="right"
       >
@@ -54,12 +54,12 @@ const BrandCompany = () => {
           {row2.map((logo,i) => (
             <div
               key={i}
-              className="w-32 md:w-52 grid place-items-center py-6 px-4"
+              className="grid w-32 px-4 py-6 md:w-52 place-items-center"
             >
               <img
-                className="object-contain  w-full h-full rounded-lg aspect-video px-4  shadow-lg"
+                className="object-contain w-full h-full px-4 rounded-lg shadow-lg aspect-video"
                 src={logo}
-                alt=""
+                alt="s"
               />
             </div>
           ))}

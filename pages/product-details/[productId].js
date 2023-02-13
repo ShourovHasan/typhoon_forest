@@ -16,17 +16,17 @@ const ProductDetails = ({ product }) => {
 
     if (loading)
         return (
-            <div className="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-black mx-auto my-32"></div>
+            <div className="w-16 h-16 mx-auto my-32 border-4 border-black border-dashed rounded-full animate-spin"></div>
         );
 
     return (
         <div className="max-w-[1280px] mx-auto py-20">
-            <div className="border-b-2 mb-3 pb-3">
+            <div className="pb-3 mb-3 border-b-2">
                 <h2 className="text-xl font-bold">{title}</h2>
             </div>
             <div className="grid grid-cols-3 gap-6">
                 <div className="col-span-2">
-                    <img src={image} alt="" className="w-full rounded-lg" />
+                    <img src={image} alt="s" className="w-full rounded-lg" />
                     <div className="font-medium text-[#696969] pt-5">
                         <p className="mb-2">
                             <span className="text-xl font-bold">Groovy</span> is
@@ -64,8 +64,8 @@ const ProductDetails = ({ product }) => {
                     </div>
                 </div>
                 <div>
-                    <div className="border-2 p-6 rounded-lg">
-                        <div className="flex justify-between text-lg font-bold items-center border-b-2 pb-3 mb-4">
+                    <div className="p-6 border-2 rounded-lg">
+                        <div className="flex items-center justify-between pb-3 mb-4 text-lg font-bold border-b-2">
                             <p>Regular License</p>
                             <p className="text-4xl text-green-600">${price}</p>
                         </div>
@@ -104,17 +104,17 @@ const ProductDetails = ({ product }) => {
                             Price is in US dollars and excludes tax
                         </p>
                     </div>
-                    <div className="border-2 p-6 rounded-lg mt-4 font-bold">
-                        <div className="flex justify-between items-center">
+                    <div className="p-6 mt-4 font-bold border-2 rounded-lg">
+                        <div className="flex items-center justify-between">
                             <p className="text-black">Last Update-</p>
                             <p className="text-[#696969]">19 January 2023</p>
                         </div>
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                             <p className="text-black">Published-</p>
                             <p className="text-[#696969]">14 January 2023</p>
                         </div>
                     </div>
-                    <div className="border-2 p-6 rounded-lg mt-4">
+                    <div className="p-6 mt-4 border-2 rounded-lg">
                         <h4 className="text-xl font-bold">Tags-</h4>
                         <p className="font-medium text-[#696969]">
                             amp, blog, creative, grid, high performance, high

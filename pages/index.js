@@ -41,7 +41,7 @@ export default function Home() {
                 <Trending/>
                 <RecentlyAdded></RecentlyAdded>
                 <Review></Review>
-                <Trending />
+                {/* <Trending /> */}
                 <Contact/>
                 <BrandCompany/>
             </div>

@@ -6,12 +6,12 @@ const index = () => {
             <div className="overflow-hidden h-80 rounded-xl">
                 <img
                     src="https://img.freepik.com/free-photo/toy-bricks-table-with-word-blog_144627-47465.jpg?w=1380&t=st=1676227295~exp=1676227895~hmac=2c1a154adfeb1414eb8a888f323faab95429c0e6304b7a65ec1f08a70d4d5258"
-                    alt=""
+                    alt="s"
                     className="w-full"
                 />
             </div>
 
-            <div className="gap-y-6 grid font-medium pt-8">
+            <div className="grid pt-8 font-medium gap-y-6">
                 <p>
                     <span className="text-4xl">IN </span>Today is digital world,
                     having a website is crucial for businesses and individuals

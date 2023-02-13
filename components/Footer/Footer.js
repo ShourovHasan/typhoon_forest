@@ -15,25 +15,25 @@ const Footer = () => {
   const socialMedia = (
     <div className="flex gap-1">
       <div
-        className=" p-2 hover:bg-black rounded-full hover:text-white duration-700 cursor-pointer"
+        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
         title="Facebook"
       >
         <FaFacebook className="text-3xl " />
       </div>
       <div
-        className=" p-2 hover:bg-black rounded-full hover:text-white duration-700 cursor-pointer"
+        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
         title="Facebook"
       >
         <FaInstagram className="text-3xl" />
       </div>
       <div
-        className=" p-2 hover:bg-black rounded-full hover:text-white duration-700 cursor-pointer"
+        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
         title="LinkedIn"
       >
         <FaLinkedin className="text-3xl" />
       </div>
       <div
-        className=" p-2 hover:bg-black rounded-full hover:text-white duration-700 cursor-pointer"
+        className="p-2 duration-700 rounded-full cursor-pointer  hover:bg-black hover:text-white"
         title="Dribbble"
       >
         <FaDribbble className="text-3xl" />
@@ -46,8 +46,8 @@ const Footer = () => {
     // Typhoon Forest
     <section>
       <div className="max-w-[1400px] mx-auto md:flex justify-between items-center px-6 lg:px-12">
-        <h1 className="text-2xl font-bold relative">
-          <span className="absolute -top-4 text-green-500 text-4xl font-extrabold -z-10">
+        <h1 className="relative text-2xl font-bold">
+          <span className="absolute text-4xl font-extrabold text-green-500 -top-4 -z-10">
             Typhoon
           </span>
           Forest<span className="text-red-500">.</span>
@@ -64,64 +64,64 @@ const Footer = () => {
               <p>DHAKA 1212 BANGLADESH.</p>
             </div>
           </div>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <AiFillPhone className="mr-2" />
             +8801111122200
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center ">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <GrMail className="mr-2" />
             typhoon@gamil.com
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <AiOutlineGlobal className="mr-2" />
             typhoon.com.bd
           </p>
         </div>
         <div>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Contact Us
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Designers
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Terms & Conditions
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Returns & Exchanges
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             FAQs
           </p>
         </div>
         <div>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Forum Support
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             My Account
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Orders Tracking
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             Size Guides
           </p>
-          <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
+          <p className="flex items-center mt-1 duration-500 cursor-pointer  hover:translate-x-4">
             <FiChevronsRight className="mr-1" />
             ShortCode
           </p>
         </div>
-        <div className="flex flex-col items-center mt-4 lg:mt-0 md:items-start lg:items-end justify-center gap-2">
+        <div className="flex flex-col items-center justify-center gap-2 mt-4 lg:mt-0 md:items-start lg:items-end">
           <img
             className="w-40"
             src="https://i.ibb.co/VV2zy6v/5a902db97f96951c82922874.png"
@@ -130,12 +130,12 @@ const Footer = () => {
           <img
             className="w-40"
             src="https://i.ibb.co/7WKT5bS/67015-play-google-app-store-android-free-transparent-image-hd.jpg"
-            alt=""
+            alt="s"
           />
         </div>
-        <div className="md:hidden mx-auto ">{socialMedia}</div>
+        <div className="mx-auto md:hidden ">{socialMedia}</div>
       </div>
-      <div className="text-center py-4 bg-gray-800 text-white mt-4">
+      <div className="py-4 mt-4 text-center text-white bg-gray-800">
         <h1>Copyright @{currentYear} || November Typhoon </h1>
       </div>
     </section>
