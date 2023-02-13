@@ -41,18 +41,20 @@ const Footer = () => {
     </div>
   );
 
-  return (
-    <section className="max-w-6xl mx-auto">
-      <div className="md:flex justify-between items-center px-6 lg:px-12">
+	return (
+    //   className="max-w-[1400px] mx-auto"
+    // Typhoon Forest
+    <section>
+      <div className="max-w-[1400px] mx-auto md:flex justify-between items-center px-6 lg:px-12">
         <h1 className="text-2xl font-bold relative">
           <span className="absolute -top-4 text-green-500 text-4xl font-extrabold -z-10">
-            November
+            Typhoon
           </span>
-          Typhoon<span className="text-red-500">.</span>
+          Forest<span className="text-red-500">.</span>
         </h1>
         <div className="hidden md:block">{socialMedia}</div>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 mt-5 gap-4 px-6 lg:px-12">
+      <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 lg:grid-cols-4 mt-5 gap-4 px-6 lg:px-12">
         {/* address section */}
         <div>
           <div className="flex">
@@ -131,7 +133,7 @@ const Footer = () => {
             alt=""
           />
         </div>
-        <div className="md:hidden mx-auto">{socialMedia}</div>
+        <div className="md:hidden mx-auto ">{socialMedia}</div>
       </div>
       <div className="text-center py-4 bg-gray-800 text-white mt-4">
         <h1>Copyright @{currentYear} || November Typhoon </h1>
