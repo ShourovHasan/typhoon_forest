@@ -112,7 +112,7 @@ const Footer = () => {
           </p>
           <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
             <FiChevronsRight className="mr-1" />
-            Size Guides
+            Size Guide
           </p>
           <p className=" hover:translate-x-4 duration-500 cursor-pointer mt-1 flex items-center">
             <FiChevronsRight className="mr-1" />
