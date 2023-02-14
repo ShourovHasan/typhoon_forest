@@ -17,7 +17,6 @@ const Review = () => {
         slidesToScroll: 2,
     };
     return (
-
         <div className="py-16 bg-gray-50">
             <div className="container flex flex-col justify-between px-4 mx-auto lg:items-center lg:flex-row">
                 <div className="mb-14 xl:mb-0">
